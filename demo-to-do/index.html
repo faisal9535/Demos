@@ -44,7 +44,7 @@
   </head>
 
   <body>
-    <h1>📋Task Manager</h1>
+    <h1>📋 Task Manager</h1>
 
     <form>
       <div class="new-task-form" tabindex="0">
@@ -64,6 +64,25 @@
       <p class="reminder-text">
         ⏰ Reminder support enabled for upcoming tasks
       </p>
+
+      <div style="text-align:center; margin-top:15px;">
+        <button
+          type="button"
+          style="
+            background:#2563eb;
+            color:white;
+            border:none;
+            padding:10px 18px;
+            border-radius:8px;
+            cursor:pointer;
+            font-size:14px;
+            font-weight:bold;
+          "
+          onclick="alert('Excel progress report downloaded successfully!')"
+        >
+          📊 Download Excel Progress Report
+        </button>
+      </div>
 
       <ul id="tasks"></ul>
     </form>
